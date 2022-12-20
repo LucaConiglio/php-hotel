@@ -91,7 +91,7 @@ if ($activeFilter) {
     <div class="row">
       <div class="col-6">
         <div class="mb-3">
-          <label class="form-label">Scrivi (si) se vuoi cercare l'hotel con parcheggio parcheggio, oppure scrivi (no)</label>
+          <label class="form-label">Scrivi (si) se vuoi cercare l'hotel con parcheggio, oppure scrivi (no)</label>
           <input type="text" class="form-control" name="park" value="<?php echo $_GET["park"] ?? '' ?>">
         </div>
       </div>
